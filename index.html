@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lineage 2 Slovensko - #1 Slovenský MMORPG Server (Interlude, Gracia, High Five, Classic)</title>
+    
+    <!-- Advanced SEO Meta Tags -->
+    <meta name="description" content="Oficiálny slovenský portál a server hry Lineage 2. Hrajte na legendárnych kronikách Interlude, Gracia Final, High Five a Classic. Stabilné PvP, nulový lag, spravodlivá ekonomika a plná podpora pre Windows, Linux, macOS a Android!">
+    <meta name="keywords" content="Lineage 2 Slovensko, L2 SK, Lineage 2 Interlude, L2 High Five, L2 Classic, slovensky l2 server, mmorpg slovensko, dalam world, l2 slovakia">
+    <meta name="author" content="Lineage 2 Slovak Community">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://l2sk.github.io">
+    <link rel="alternate" hreflang="sk" href="https://l2sk.github.io">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Lineage 2 Slovensko - Epické Vojny Klanov & MMORPG Server">
+    <meta property="og:description" content="Pripojte sa k najväčšej slovenskej komunite Lineage 2. Vyberte si svoje obľúbené kroniky a ovládnite svet Adenu!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://l2sk.github.io">
+    <meta property="og:image" content="https://srv6-cdn.dalam.world/monthly_2026_09/banner-2.jpg.24568f8523c6a464171e58703ac6e759.jpg?key=sk_seo_banner_hash">
+    <meta property="og:locale" content="sk_SK">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lineage 2 Slovensko - MMORPG Server">
+    <meta name="twitter:description" content="Špičkový slovenský server Lineage 2 s podporou Interlude, Gracia, High Five a Classic. Hrajte teraz!">
+    <meta name="twitter:image" content="https://srv6-cdn.dalam.world/monthly_2026_09/banner-2.jpg.24568f8523c6a464171e58703ac6e759.jpg?key=sk_seo_banner_hash">
+
+    <style>
+        :root {
+            --bg-color: #050811;
+            --card-bg: #0f172a;
+            --accent-color: #38bdf8;
+            --accent-hover: #7dd3fc;
+            --text-main: #cbd5e1;
+            --text-bright: #ffffff;
+            --border-color: #1e293b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.8;
+            padding-bottom: 50px;
+        }
+
+        /* Hero Video Header */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 85vh;
+            min-height: 520px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            overflow: hidden;
+            border-bottom: 4px solid var(--accent-color);
+        }
+
+        .hero video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(5, 8, 17, 0.4), rgba(5, 8, 17, 0.95));
+            z-index: 2;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 3;
+            max-width: 900px;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 3.2rem;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 800;
+            text-shadow: 0 2px 12px rgba(0,0,0,0.9);
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-bright);
+            margin-bottom: 30px;
+            text-shadow: 0 1px 6px rgba(0,0,0,0.9);
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            background-color: var(--accent-color);
+            color: #050811;
+            padding: 14px 30px;
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(56, 189, 248, 0.6);
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--accent-color);
+            color: var(--text-bright);
+            box-shadow: none;
+        }
+
+        .btn-outline:hover {
+            background-color: var(--accent-color);
+            color: #050811;
+        }
+
+        /* Container Layout */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            padding: 40px;
+            margin-bottom: 35px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            border: 1px solid var(--border-color);
+        }
+
+        h2 {
+            color: var(--accent-color);
+            margin-bottom: 20px;
+            font-size: 1.9rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 12px;
+        }
+
+        p, ul {
+            margin-bottom: 16px;
+            font-size: 1.05rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .feature-box {
+            background: #132238;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .feature-box h4 {
+            color: var(--text-bright);
+            margin-bottom: 8px;
+            font-size: 1.15rem;
+        }
+
+        /* Video Showcase */
+        .video-box {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #000;
+            margin-top: 15px;
+        }
+
+        .video-box video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Gallery Grid */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery-grid a img {
+            width: 100%;
+            height: 190px;
+            object-fit: cover;
+            border-radius: 6px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            border: 1px solid var(--border-color);
+        }
+
+        .gallery-grid a img:hover {
+            transform: scale(1.03);
+            border-color: var(--accent-color);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #64748b;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+            padding-top: 25px;
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.3rem;
+            }
+            .hero p {
+                font-size: 1.05rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Video Header -->
+    <header class="hero">
+        <video autoplay muted loop playsinline poster="https://srv6-cdn.dalam.world/monthly_2026_09/banner-2.jpg.24568f8523c6a464171e58703ac6e759.jpg?key=sk_seo_poster_hash">
+            <source src="https://srv6-cdn.dalam.world/monthly_2026_09/banner.mp4.6ae53b432a1c13861af870b2ce6b9154.mp4?key=sk_seo_video_hash" type="video/mp4">
+            Váš prehliadač nepodporuje video prvok.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Lineage 2 Slovensko</h1>
+            <p>Najväčšia slovenská MMORPG komunita: klasické kroniky, strhujúce PvP a nezabudnuteľné obliehania hradov</p>
+            <div class="btn-group">
+                <a href="https://dalam.world/#modal-register" class="btn">Registrovať Účet</a>
+                <a href="https://dalam.world/#modal-downloads" class="btn btn-outline">Stiahnuť Klienta</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- About Project Section -->
+        <section class="card">
+            <h2>Vitajte vo svete Lineage 2 SK</h2>
+            <p><strong>Lineage 2 Slovensko</strong> je špičkový, profesionálny projekt vytvorený pre milovníkov nekompromisného MMORPG žánru. Poskytujeme maximálne stabilné herné prostredie úplne bez lagov, ktoré v sebe spája tie najlepšie vlastnosti kultových herných verzií.</p>
+            <p>Či už preferujete surovú atmosféru starých čias, alebo moderné vylepšenia rozhrania, u nás nájdete ideálny domov pre rozvoj svojej postavy a klanové súboje.</p>
+            
+            <h3 style="color: var(--text-bright); margin-top: 25px; margin-bottom: 15px;">Podporované Kroniky a Platformy</h3>
+            <div class="features-grid">
+                <div class="feature-box">
+                    <h4>Interlude & Classic</h4>
+                    <p>Klasický herný balans, nezabudnuteľné súboje s raid bossmi a napínavá olympiáda.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>Gracia Final</h4>
+                    <p>Vzdušné súboje na vzducholodiach, territory wars a masívne taktické bitky.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>High Five</h4>
+                    <p>Optimalizované rozhranie, vyvážené triedy a dynamický postup postavy hrou.</p>
+                </div>
+                <div class="feature-box">
+                    <h4>Multiplatformovosť</h4>
+                    <p>Plná podpora a optimalizácia pre Windows, Linux, macOS a zariadenia s Androidom.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Showcase Section -->
+        <section class="card">
+            <h2>Predstavenie Svetu a Hrateľnosti</h2>
+            <div class="video-box">
+                <video controls poster="https://srv6-cdn.dalam.world/monthly_2026_07/05wall01_1600.jpg.a570a5f746d364f9a558c5442828e279.jpg?key=sk_seo_prev_hash">
+                    <source src="https://srv6-cdn.dalam.world/monthly_2026_07/355507094_DalamWorldDarkElf.mp4.54c5a2784a3c1b2e7561c610338c39c9.mp4?key=sk_seo_gameplay_hash" type="video/mp4">
+                    Váš prehliadač nepodporuje prehrávanie videa.
+                </video>
+            </div>
+        </section>
+
+        <!-- Useful Links Section -->
+        <section class="card">
+            <h2>Dôležité Odkazy a Zdroje</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="margin-bottom: 12px;">🌐 <strong>Hlavný Portál:</strong> <a href="https://dalam.world/" target="_blank" style="color: var(--accent-color);">dalam.world</a></li>
+                <li style="margin-bottom: 12px;">📖 <strong>Znalostná Báza & FAQ:</strong> <a href="https://dalam.world/faq" target="_blank" style="color: var(--accent-color);">Pravidlá servera a návody</a></li>
+                <li style="margin-bottom: 12px;">💬 <strong>Slovenská Komunita:</strong> <a href="https://dalam.world/forums/" target="_blank" style="color: var(--accent-color);">Diskusné fórum a nábory do klanov</a></li>
+                <li style="margin-bottom: 12px;">📥 <strong>Centrum Sťahovania:</strong> <a href="https://dalam.world/#modal-downloads" target="_blank" style="color: var(--accent-color);">Stiahnuť inštalátor a aktualizácie</a></li>
+                <li style="margin-bottom: 12px;">🎮 <strong>Oficiálny Discord:</strong> <a href="https://link.dalam.world/discord" target="_blank" style="color: var(--accent-color);">Pripojte sa ku komunitnému kanálu</a></li>
+            </ul>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="card">
+            <h2>Galéria Sveta Aden</h2>
+            <p>Kliknutím na ľubovoľný snímok obrazovky prejdete na hlavný portál servera:</p>
+            <div class="gallery-grid">
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_08/camprest.jpg.3dba6692564993032aad81dd89b5216f.jpg?key=sk_seo_img_1" alt="L2 SK Screen 1"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/888888.jpg.ca2774ab512bc63ec97b58e22fe0d049.jpg?key=sk_seo_img_2" alt="L2 SK Screen 2"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/1233123.jpg.bc3a7363302cdea5817a7bd6861f5881.jpg?key=sk_seo_img_3" alt="L2 SK Screen 3"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/78ba9246e77f8d1905d8506dbcf2156b.jpg.059226f330ec28f5d65808c9e1980b39.jpg?key=sk_seo_img_4" alt="L2 SK Screen 4"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/05wall01_1600.jpg.a570a5f746d364f9a558c5442828e279.jpg?key=sk_seo_img_5" alt="L2 SK Screen 5"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/1228497862_image(7).jpg.dc18f3187ad74e54523cf74c2524087d.jpg?key=sk_seo_img_6" alt="L2 SK Screen 6"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/mirco-cabbia-elfa-fin-2-4.jpg.b061be845dec1c5f4873525d1c37fb8a.jpg?key=sk_seo_img_7" alt="L2 SK Screen 7"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/Bridge.jpg.be9462d32ab23a4f972a3e6d1cf58765.jpg?key=sk_seo_img_8" alt="L2 SK Screen 8"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/dv3.jpg.7bcf3433a916fda45b4edab362f40cd2.jpg?key=sk_seo_img_9" alt="L2 SK Screen 9"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/Oren7.jpg.d3ec8b095aea0ef5609d570e2935aebe.jpg?key=sk_seo_img_10" alt="L2 SK Screen 10"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/FoM2.jpg.42658076d8767b9ef46c789f3b1377d1.jpg?key=sk_seo_img_11" alt="L2 SK Screen 11"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/Demilika19-1.jpg.a2650d2979d012dadaa96ac813908b46.jpg?key=sk_seo_img_12" alt="L2 SK Screen 12"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/Demilika9-1.jpg.349e6b44cc7053ae704f1a69cfff3528.jpg?key=sk_seo_img_13" alt="L2 SK Screen 13"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/411008428_.jpg.863a6523ccafdd158ad1ea764ba102e8.jpg?key=sk_seo_img_14" alt="L2 SK Screen 14"></a>
+                <a href="https://dalam.world" target="_blank"><img src="https://srv6-cdn.dalam.world/monthly_2026_07/925499585_ChatGPTImage132026.17_43_17.jpg.c97b3178b0a56adf69a25d56e03a9a0c.jpg?key=sk_seo_img_15" alt="L2 SK Screen 15"></a>
+            </div>
+        </section>
+
+    </div>
+ <script src="https://res.dalam.world/dwmw.js"></script>
+    <footer>
+        <p>&copy; 2026 Lineage 2 Slovensko. Všetky práva vyhradené.</p>
+        <p>Hlavný komunitný portál: <a href="https://dalam.world">dalam.world</a></p>
+    </footer>
+
+</body>
+</html>
